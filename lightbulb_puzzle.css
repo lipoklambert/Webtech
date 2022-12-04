@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+}
+div.flex{
+    display: flex;
+    margin: 1em;
+}
+table.lightbulbpuzzle{
+    display: flex;
+    border: thick solid black;
+    border-collapse: collapse;
+    width: fit-content;
+}
+
+table.lightbulbpuzzle td{
+    width: 3rem;
+    height: 3rem;
+    border: thin solid black;
+    text-align: center;
+}
+
+table.lightbulbpuzzle td.black{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+table.lightbulbpuzzle td.blue{
+    background-color: azure;
+}
+div.flex-child{
+    margin-left: 2em;
+    font-size: large;
+}
+div.flex-child>ul>li::before{
+    color: black;
+}

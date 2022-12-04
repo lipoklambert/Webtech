@@ -1,0 +1,47 @@
+table.labyrinth {
+    margin: 1em auto;
+    border: medium solid black;
+    border-spacing: 0em;
+}
+
+table.labyrinth td{
+    width: 5.5em;
+    height: 5.5em;
+    border: thin solid black;
+    text-align: center;
+    vertical-align: middle;
+    background-color: skyblue;
+    font-size: large;
+}
+
+table tr td.grapnel::after{
+    content: "\2693";
+}
+
+table tr td.paint::after{
+    content: "\1F3A8";
+}
+
+table tr td.music::after{
+    content: "\1F3B5";
+}
+
+table tr td.telephone::after{
+    content: "\1F4DE";
+}
+
+table tr td.magnifyingglass::after{
+    content: "\1f50E";
+}
+
+table tr td.bottom-wall{
+    border-bottom: thick solid white;
+}
+
+table tr td.right-wall{
+    border-right: thick solid white;
+}
+
+table tr td.left-wall{
+    border-left: thick solid white;
+}
