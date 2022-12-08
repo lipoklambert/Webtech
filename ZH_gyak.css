@@ -1,0 +1,44 @@
+table.torpedo{
+    border-collapse: collapse;
+    border: thick solid black;
+}
+
+thead>tr>th{
+    border-bottom: medium solid black;
+    height: 3rem;
+    width: 3rem;
+    border-right: thin solid black;
+    font-weight: normal;
+}
+
+td{
+    border: thin solid black;
+}
+
+tbody>tr>th{
+    border-right: medium solid black;
+    border-bottom: thin solid black;
+    font-weight: normal;
+}
+
+th.left-corner{
+    border-right: medium solid black;
+}
+
+td:hover{
+    background-color: lightgray;
+}
+
+td.ship{
+    background-color: coral;
+    text-align: center;
+}
+
+td.ship:hover::after{
+    content: "\274C";
+}
+
+tbody>tr>td{
+    width: 3rem;
+    height: 3rem;
+}
