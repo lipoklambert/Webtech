@@ -1,0 +1,30 @@
+/*Lipők Lambert Attila BX1EGQ*/
+body{
+    border: thin solid black;
+    text-align: center;
+    margin-left: 30em;
+    margin-right: 30em;
+}
+table.aknakereso{
+    border-spacing: 0;
+    border: thick solid black;
+    background-color: lightgray;
+    margin: auto;  
+}
+td{
+    height: 4rem;
+    width: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 0.5rem outset white;
+}
+table.aknakereso>tbody>tr>td.felfedett{
+    border: none;
+}
+
+td.flag::after{
+    content: "\2691";
+}
+h5{
+    font-style: italic;
+}
